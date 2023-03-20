@@ -1,0 +1,35 @@
+.section-text-content {
+  max-width: 94rem;
+  margin: auto;
+  padding: 0 2rem;
+
+  .divider {
+    &--1 {
+      margin-top: 8rem;
+      margin-bottom: 4rem;
+
+      @media screen and (max-width: 767px) {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+      }
+    }
+
+    &--2 {
+      margin-top: 4rem;
+
+      @media screen and (max-width: 767px) {
+        margin-top: 2rem;
+      }
+    }
+  }
+
+  &__flower {
+    top: -8.5rem;
+    right: 5rem;
+  }
+
+  &__leaves {
+    bottom: -4rem;
+    left: -2rem;
+  }
+}

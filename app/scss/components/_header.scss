@@ -1,0 +1,73 @@
+// Desktop styles
+.header-navigation {
+  
+  &__list {
+    
+    .dropdown {
+      position: relative;
+
+      .header-navigation__item {
+        border-bottom: 0;
+      }
+    }
+  }
+
+  &__logo {
+    height: 9rem;
+  }
+
+  &__item {
+    display: flex;
+    cursor: pointer;
+    padding: 4.5rem 2.5rem;
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+      color: $white;
+      border-bottom: 2px solid $beige;
+
+      .chevron-down {
+        path {
+          fill: $white;
+        }
+      }
+    }
+
+    .chevron-down {
+      path {
+        fill: $beige;
+      }
+    }
+  }
+
+  .submenu {
+    flex-direction: column;
+    width: 15rem;
+    bottom: -16rem;
+    left: 0;
+    padding: 2rem 1rem;
+    z-index: 100;
+    background-color: #e6d1bf;
+
+    &__item {
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+
+        &:after {
+          content: '';
+          display: block;
+          margin-top: 1rem;
+          height: 1px;
+          width: 5rem;
+          background-color: $white;
+          margin: auto;
+          margin-top: 1rem;
+        }
+      }
+
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}

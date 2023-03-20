@@ -1,0 +1,55 @@
+// Mobile - Tablet
+
+
+.burger-menu-icon {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  z-index: 1000;
+  width: 4rem;
+  display: none;
+
+  &.active {
+    background-color: $champagne;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .burger-menu-icon {
+    display: block;
+  }
+
+  .header-navigation {
+    height: 100vh;
+    display: none;
+    overflow-y: scroll;
+
+    &.active {
+      display: block;
+    }
+
+    .container {
+      flex-direction: column;
+      height: 100%;
+      justify-content: flex-start;
+      margin-top: 10rem;
+    }
+
+    &__list {
+      flex-direction: column;
+    }
+
+    .logo-link {
+      order: 1;
+      margin-top: -2rem;
+      margin-bottom: 2rem;
+    }
+    nav {
+      order: 2;
+    }
+    &__item {
+      padding: 1rem 2rem;
+    }
+  }
+}

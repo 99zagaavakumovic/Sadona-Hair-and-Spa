@@ -1,0 +1,23 @@
+// Base
+@import './base/global';
+@import './base/colors';
+@import './base/fonts';
+@import './base/reusable-classes';
+
+// Components
+@import './components/section-reopening';
+@import './components/buttons';
+@import './components/divider';
+@import './components/section-text-content';
+@import './components/service-section-1';
+@import './components/service-section-2';
+@import './components/service-section-3';
+@import './components/service-section-4';
+@import './components/service-section-5';
+@import './components/section-faq';
+@import './components/section-news';
+@import './components/footer';
+@import './components/header';
+@import './components/slider';
+@import './components/mobile-tablet-navigation';
+

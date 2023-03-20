@@ -1,0 +1,60 @@
+.service-section-3 {
+  margin-top: 8rem;
+
+  @media screen and (max-width: 767px) {
+    margin-top: 3rem;
+  }
+
+  &__background{
+    background-image: url('/img/image-4-min.png');
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+  }
+
+  &__content {
+    width: 39rem;
+    padding: 4rem;
+    margin-right: -2rem;
+    background-color: rgba($white, 0.41);
+  }
+
+  &__flower {
+    right: 1.5rem;
+    top: -7rem;
+
+    @media screen and (max-width: 767px) {
+     top: 0;
+     width: 10rem;
+    }
+  }
+
+  &__cta {
+    display: table;
+    margin-top: 8rem;
+
+    @media screen and (max-width: 767px) {
+      margin-top: 3rem;
+    }
+  }
+
+  &__leaves-1 {
+    bottom: 5rem;
+    right: 9rem;
+
+    @media screen and (max-width: 767px) {
+      width: 6rem;
+    }
+  }
+
+  &__leaves-2 {
+    top: 17rem;
+    left: 16rem;
+
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+
+}

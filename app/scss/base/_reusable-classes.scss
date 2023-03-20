@@ -1,0 +1,312 @@
+// Containers
+.container {
+  max-width: 113rem;
+  padding: 0 2rem;
+  margin: auto;
+}
+
+// Overflow
+.overflow-hidden {
+  overflow: hidden;
+}
+
+// Alignement
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+// Text color
+.text-white {
+ color: $white; 
+}
+
+.text-light-gray { 
+ color: $light-gray; 
+}
+
+.text-dark-gray {
+ color: $dark-gray;  
+}
+
+.text-beige {
+ color: $beige;  
+}
+
+.text-champagne {
+ color: $champagne;  
+}
+
+.text-brown {
+ color: $brown;  
+}
+
+.text-lighht-brown {
+ color: $light-brown;  
+}
+
+.text-dark-brown {
+ color: $dark-brown;  
+}
+
+// Background color
+.bg-white {
+ background-color: $white; 
+}
+
+.bg-light-gray { 
+ background-color: $light-gray; 
+}
+
+.bg-dark-gray {
+ background-color: $dark-gray;  
+}
+
+.bg-beige {
+ background-color: $beige;  
+}
+
+.bg-champagne {
+ background-color: $champagne;  
+}
+
+.bg-brown {
+ background-color: $brown;  
+}
+
+.bg-light-brown {
+ background-color: $light-brown;  
+}
+
+.bg-dark-brown {
+ background-color: $dark-brown;  
+}
+
+// Border color
+.border-dark-brown {
+  border-color: $dark-brown;  
+}
+
+.border-beige {
+  border-color: $beige;  
+}
+
+// Text sizes
+.font-70 {
+  font-size: 7rem;
+  line-height: 8rem;
+
+  @media screen and (max-width: 767px) {
+    font-size: 2.8rem;
+    line-height: 4rem;
+  }
+}
+.font-50 {
+  font-size: 5rem;
+  line-height: 6rem;
+
+  @media screen and (max-width: 767px) {
+    font-size: 2.6rem;
+    line-height: 4rem;
+  }
+}
+
+.font-30 {
+  font-size: 3rem;
+  line-height: 4.5rem;
+  
+  @media screen and (max-width: 767px) {
+    font-size: 2.4rem;
+    line-height: 3.5rem;
+  }
+}
+
+.font-25 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+
+  @media screen and (max-width: 767px) {
+    font-size: 2.2rem;
+  }
+}
+
+.font-20 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  
+  @media screen and (max-width: 767px) {
+    font-size: 1.8rem;
+  }
+}
+
+.font-18 {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+
+.font-16 {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
+.font-12 {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+// Layouts
+.flex {
+  display: flex;
+}
+
+.justify-content-start {
+  justify-content: flex-start; 
+}
+
+.justify-content-end {
+  justify-content: flex-end; 
+}
+
+.justify-content-between {
+  justify-content: space-between; 
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+// MARGINS
+// Top
+.mt-1 {
+  margin-top: 0.5rem;
+}
+.mt-2 {
+  margin-top: 1rem;
+}
+.mt-3 {
+  margin-top: 1.5rem;
+}
+.mt-4 {
+  margin-top: 2rem;
+}
+.mt-5 {
+  margin-top: 2.5rem;
+}
+.mt-6 {
+  margin-top: 3rem;
+}
+.mt-7 {
+  margin-top: 3.5rem;
+}
+.mt-8 {
+  margin-top: 4rem;
+}
+.mt-9 {
+  margin-top: 4.5rem;
+}
+.mt-10 {
+  margin-top: 5rem;
+}
+
+// Left
+.ml-1 {
+  margin-left: 0.5rem;
+}
+.ml-2 {
+  margin-left: 1rem;
+}
+.ml-3 {
+  margin-left: 1.5rem;
+}
+.ml-4 {
+  margin-left: 2rem;
+}
+.ml-5 {
+  margin-left: 2.5rem;
+}
+.ml-6 {
+  margin-left: 3rem;
+}
+.ml-7 {
+  margin-left: 3.5rem;
+}
+.ml-8 {
+  margin-left: 4rem;
+}
+.ml-9 {
+  margin-left: 4.5rem;
+}
+.ml-10 {
+  margin-left: 5rem;
+}
+
+// Right
+.mr-1 {
+  margin-right: 0.5rem;
+}
+.mr-2 {
+  margin-right: 1rem;
+}
+.mr-3 {
+  margin-right: 1.5rem;
+}
+.mr-4 {
+  margin-right: 2rem;
+}
+.mr-5 {
+  margin-right: 2.5rem;
+}
+.mr-6 {
+  margin-right: 3rem;
+}
+.mr-7 {
+  margin-right: 3.5rem;
+}
+.mr-8 {
+  margin-right: 4rem;
+}
+.mr-9 {
+  margin-right: 4.5rem;
+}
+.mr-10 {
+  margin-right: 5rem;
+}
+
+// Positions
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+// Other
+.list-style-none {
+  list-style: none;
+}
+
+.gap-30 {
+  gap: 3rem;
+}
+
+.hover-text-brown {
+  &:hover {
+    color: $brown;
+  }
+}
+
+.hidden {
+  display: none;
+}

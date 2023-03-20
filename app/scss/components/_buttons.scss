@@ -1,0 +1,33 @@
+.button {
+  text-decoration: none;
+  display: inline-flex;
+  border-width: 1px;
+  border-style: solid;
+
+  &__label {
+    padding: 1.1rem 2rem;
+    font-size: 1.6rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    transition: all ease-in-out 0.2s;
+
+    &.bg-beige:hover {
+      color: $white;
+    }
+  }
+
+  &:hover {
+    .button__label {
+      border-radius: 0;
+    }
+  }
+
+  &.border-dark-brown:hover {
+    border-color: $brown;
+
+    .bg-dark-brown {
+      background-color: $brown;
+    }
+  }
+
+}

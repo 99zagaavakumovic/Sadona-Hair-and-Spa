@@ -1,0 +1,47 @@
+.section-reopening {
+  padding: 3rem 2rem 4rem 2rem;
+
+  &__container {
+    max-width: 74.6rem;
+    margin: auto;
+  }
+
+  &__title {
+  }
+
+  &__text {
+  }
+
+  &__cta {
+  }
+
+  // Absolute Images - Flowers/Leaves
+  &__flower-1 {
+    bottom: -11.5rem;
+    right: 3rem;
+
+    @media screen and (max-width: 767px) {
+      width: 7rem;
+      bottom: -5rem;
+      right: 0;
+    }
+  }
+
+  &__leaves-1 {
+    top: -2rem;
+    right: 0;
+
+    @media screen and (max-width: 767px) {
+      top: -3rem;
+    }
+  }
+
+  &__leaves-2 {
+    top: -2rem;
+    left: 0;
+
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+}

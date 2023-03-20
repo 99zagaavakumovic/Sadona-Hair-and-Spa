@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sadona Hair & Spa</title>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+  <link rel="stylesheet" href="dist/style.css">
+</head>
+<body>
+  
+  <!-- Burger Menu Icon -->
+  <img class="burger-menu-icon" src="/img/burger-menu.svg" alt="Burger menu icon"/>
+
+  <!-- Navigation -->
+  <header class="header-navigation bg-brown">
+    <div class="container flex items-center justify-content-between">
+      <nav>
+        <ul class="header-navigation__list list-style-none flex items-center">
+          <li><a class="header-navigation__item font-20 text-beige ff-barlow-regular" href="">Home</a></li>
+          <li><a class="header-navigation__item font-20 text-beige ff-barlow-regular" href="">Our Story</a></li>
+          <li class="dropdown relative">
+            <a class="header-navigation__item font-20 text-beige ff-barlow-regular flex items-center">
+              Services 
+              <svg class="ml-2 mt-1 chevron-down" xmlns="http://www.w3.org/2000/svg" width="11" height="5" viewBox="0 0 11 5"><defs><style>.a{fill:#e7d1a7;}</style></defs><path class="a" d="M1.507,5.5,4.816,1.34a.931.931,0,0,0,0-1.11.541.541,0,0,0-.885,0L.182,4.942A.936.936,0,0,0,.164,6.026l3.765,4.745a.542.542,0,0,0,.885,0,.931.931,0,0,0,0-1.11Z" transform="translate(0 5) rotate(-90)"/></svg>
+            </a>
+
+            <div class="submenu hidden text-center flex absolute">
+              <a class="submenu__item font-16 text-brown ff-barlow-regular" href="#salon-services">Salon Services</a>
+              <a class="submenu__item font-16 text-brown ff-barlow-regular" href="#spa-services">Spa Services</a>
+              <a class="submenu__item font-16 text-brown ff-barlow-regular" href="#bridal-services">Bridal Services</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <a href="/" class="logo-link"><img class="header-navigation__logo" src="/img/header-logo-2x-min.png" alt="Header logo"/></a>
+      <nav>
+        <ul class="header-navigation__list list-style-none flex items-center">
+          <li><a class="header-navigation__item font-20 text-beige ff-barlow-regular" href="">Products</a></li>
+          <li> <a class="header-navigation__item font-20 text-beige ff-barlow-regular" href="#news">News</a></li>
+          <li><a class="header-navigation__item font-20 text-beige ff-barlow-regular" href="">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <!-- Slider main container -->
+  <div style="overflow-x:hidden;">
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide flex items-center" style="background-image: url('/img/banner-image-1-min.png');">
+          <div class="container">
+            <h3 class="swiper-slide__subtitle font-50 ff-cookie-regular text-white">A new type of salon</h3>
+            <h2 class="swiper-slide__title font-70 ff-prata-regular text-white mt-4">A New Type Of Experience.</h2>
+            <a class="button mt-4 border-dark-brown ff-barlow-regular mt-4" href="/"><span class="button__label bg-dark-brown text-white">Contact</span></a>
+          </div>
+        </div>
+        <div class="swiper-slide flex items-center" style="background-image: url('/img/image-5-min.png');">
+          <div class="container">
+            <h3 class="swiper-slide__subtitle font-50 ff-cookie-regular text-white">02 A new type of salon</h3>
+            <h2 class="swiper-slide__title font-70 ff-prata-regular text-white mt-4">02 A New Type Of Experience.</h2>
+            <a class="button mt-4 border-dark-brown ff-barlow-regular mt-4" href="/"><span class="button__label bg-dark-brown text-white">Contact</span></a>
+          </div>
+        </div>
+        <div class="swiper-slide flex items-center" style="background-image: url('/img/image-1-min.png');">
+          <div class="container">
+            <h3 class="swiper-slide__subtitle font-50 ff-cookie-regular text-white">03 A new type of salon</h3>
+            <h2 class="swiper-slide__title font-70 ff-prata-regular text-white mt-4">03 A New Type Of Experience.</h2>
+            <a class="button mt-4 border-dark-brown ff-barlow-regular mt-4" href="/"><span class="button__label bg-dark-brown text-white">Contact</span></a>
+          </div>
+        </div>
+        <div class="swiper-slide flex items-center" style="background-image: url('/img/image-4-min.png');">
+          <div class="container">
+            <h3 class="swiper-slide__subtitle font-50 ff-cookie-regular text-white">04 A new type of salon</h3>
+            <h2 class="swiper-slide__title font-70 ff-prata-regular text-white mt-4">04 A New Type Of Experience.</h2>
+            <a class="button mt-4 border-dark-brown ff-barlow-regular mt-4" href="/"><span class="button__label bg-dark-brown text-white">Contact</span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pagination -->
+      <div class="controls-wrapper">
+        <div class="swiper-pagination"></div>
+        
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <div class="container relative">
+        <div class="social-icons">
+          <a class="social-icons__item" href="/">
+            <svg class="facebook" xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22"><defs><style>.a{fill:#fff;}</style></defs><path class="a" d="M13.257,11.814v-4.2h3.436V5.5a5.487,5.487,0,0,1,1.5-3.894A4.817,4.817,0,0,1,21.844,0h3.413V4.2H21.844a.753.753,0,0,0-.6.363,1.46,1.46,0,0,0-.268.891V7.612h4.282v4.2H20.974V22H16.692V11.814Z" transform="translate(-13.257)"/></svg>
+          </a>
+          <a class="social-icons__item" href="/">
+            <svg class="instagram" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><defs><style>.a{fill:#fff;}</style></defs><path class="a" d="M6,0C4.37,0,4.166.008,3.526.036A4.424,4.424,0,0,0,2.07.315a2.938,2.938,0,0,0-1.063.692A2.928,2.928,0,0,0,.315,2.07,4.411,4.411,0,0,0,.036,3.526C.006,4.166,0,4.37,0,6S.008,7.833.036,8.473A4.427,4.427,0,0,0,.315,9.93a2.942,2.942,0,0,0,.692,1.063,2.934,2.934,0,0,0,1.063.692,4.43,4.43,0,0,0,1.456.279c.64.03.844.036,2.474.036s1.833-.008,2.473-.036a4.44,4.44,0,0,0,1.456-.279A3.066,3.066,0,0,0,11.685,9.93a4.427,4.427,0,0,0,.279-1.456C11.994,7.833,12,7.63,12,6s-.008-1.833-.036-2.474a4.437,4.437,0,0,0-.279-1.456,2.945,2.945,0,0,0-.692-1.063A2.923,2.923,0,0,0,9.93.315,4.414,4.414,0,0,0,8.473.036C7.833.006,7.63,0,6,0ZM6,1.08c1.6,0,1.792.008,2.425.035a3.306,3.306,0,0,1,1.114.207,1.974,1.974,0,0,1,1.139,1.138,3.313,3.313,0,0,1,.207,1.113c.029.633.035.823.035,2.425s-.008,1.792-.037,2.425a3.377,3.377,0,0,1-.21,1.114,1.905,1.905,0,0,1-.45.691,1.872,1.872,0,0,1-.69.448,3.337,3.337,0,0,1-1.118.207c-.637.029-.825.035-2.429.035s-1.793-.008-2.429-.037a3.4,3.4,0,0,1-1.118-.21,1.858,1.858,0,0,1-.689-.449,1.822,1.822,0,0,1-.45-.69,3.405,3.405,0,0,1-.21-1.118c-.022-.63-.031-.825-.031-2.422s.008-1.793.031-2.43A3.4,3.4,0,0,1,1.3,2.445a1.779,1.779,0,0,1,.45-.69,1.775,1.775,0,0,1,.689-.449A3.321,3.321,0,0,1,3.548,1.1c.638-.022.825-.03,2.429-.03L6,1.08ZM6,2.919A3.081,3.081,0,1,0,9.081,6,3.081,3.081,0,0,0,6,2.919ZM6,8A2,2,0,1,1,8,6,2,2,0,0,1,6,8ZM9.923,2.8a.72.72,0,1,1-.72-.719A.721.721,0,0,1,9.923,2.8Z" transform="translate(0 0)"/></svg>
+          </a>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Reopening -->
+  <section class="section-reopening bg-beige text-center">
+    <div class="section-reopening__container relative">
+      <h3 class="section-reopening__title font-30 text-white ff-prata-regular">We are Reopening!</h3>
+      <p class="section-reopening__text font-16 text-brown ff-prata-regular mt-2">Check out details about new safety guidelines</p>
+      <a class="section-reopening__cta mt-4 button border-dark-brown ff-barlow-regular" href="/"><span class="button__label bg-dark-brown text-white">Safety Guidelines</span></a>
+  
+      <!-- Absolute Images - Flowers/Leaves -->
+      <img class="section-reopening__flower-1 absolute" src="/img/flower-1-min.png" alt="Pink flower"/>
+      <img class="section-reopening__leaves-1 absolute" src="/img/leaves-1-min.png" alt="Green leaves"/>
+      <img class="section-reopening__leaves-2 absolute" src="/img/leaves-2-min.png" alt="Green leaves"/>
+    </div>
+  </section>
+
+  <!-- Text Content -->
+  <section class="section-text-content text-center">
+    <div class="divider divider--1"></div>
+    <h1 class="font-30 text-brown ff-prata-regular">Sadona was conceived with the belief that a salon and spa should be a welcome and tranquil experience.</h1>
+    <p class="font-16 text-dark-brown mt-2 ff-barlow-regular">And from the moment you walk through our door, you will see exactly what we mean. Come, let's look around together.</p>
+    <a class="button mt-4 border-dark-brown ff-barlow-regular" href="/"><span class="button__label bg-dark-brown text-white">Our Story</span></a>
+    <div class="divider divider--2"></div>
+  </section>
+
+  <!--  Service section 1th - Salon Services -->
+  <section class="service-section-1 container relative" id="salon-services">
+    <div class="relative overflow-hidden">
+      <div class="service-section-1__content">
+        <div class="flex items-center">
+          <img class="" src="/img/salon.svg" alt="Scissors vector icon"/>
+          <h6 class="font-25 text-brown ff-cookie-regular ml-4">Services</h6>
+        </div>
+        <h2 class="service-section-1__title font-50 text-dark-brown ff-prata-regular mt-4">Salon Services</h2>
+        <p class="service-section-1__text font-16 text-dark-brown mt-4 ff-barlow-regular">Our salon is a forward-thinking studio with experts that understand your individuality and specialize in your unique beauty.</p>
+        <a class="button mt-4 border-dark-brown ff-barlow-regular" href="/"><span class="button__label bg-dark-brown text-white">All Services</span></a>
+      </div>
+      <!-- Primary image -->
+      <img class="service-section-1__primary-image absolute" src="/img/image-1-min.png" alt="Women picture 1"/>
+    </div>
+    
+    <!-- Secondary image -->
+    <img class="service-section-1__secondary-image absolute" src="/img/image-2-min.png" alt="Women picture 2"/>
+
+    <!-- CTA -->
+    <a href="/" class="service-section-1__cta">
+      <img class="" src="/img/arrow-down.svg" alt="Arrow down vector icon"/>
+      <span class="font-12 text-brown ff-barlow-regular ml-2">Check out more</span>
+    </a>
+
+    <img class="service-section-1__flower absolute" src="/img/flower-8-min.png" alt="Flower leaves"/>
+    <img class="service-section-1__leaves absolute" src="/img/leaves-10-min.png" alt="Green leaves"/>
+    <img class="service-section-1__leaves-2 absolute" src="/img/leaves-11-min.png" alt="Green leaves"/>
+  </section>
+
+  <!--  Service section 2nd - Spa Services -->
+  <section class="service-section-2 bg-brown relative" id="spa-services">
+    <div class="container relative">
+      <div class="service-section-2__content bg-brown">
+        <div class="flex items-center">
+          <img class="" src="/img/candle.svg" alt="Candle vector icon"/>
+          <h6 class="font-25 text-beige ff-cookie-regular ml-4">Services</h6>
+        </div>
+        <h2 class="service-section-2__title font-50 text-white ff-prata-regular mt-4">Spa Services</h2>
+        <p class="service-section-2__text font-16 text-white mt-4 ff-barlow-regular">Both an escape and an oasis, the luxurious spa experiences at Sadona will leave you feeling soothed, energized and refreshed.</p>
+        <a class="button mt-4 border-beige ff-barlow-regular" href="/"><span class="button__label bg-beige text-dark-brown">All Services</span></a>
+        
+        <!-- CTA -->
+        <a href="/" class="service-section-2__cta">
+          <img class="" src="/img/arrow-down.svg" alt="Arrow down vector icon"/>
+          <span class="font-12 text-beige ff-barlow-regular ml-2">Check out more</span>
+        </a>
+      </div>
+
+      <!-- Primary Image Container -->
+      <div class="primary-image-container">
+        <img class="primary-image-container__image absolute" src="/img/image-3-min.png" alt="Women picture 1"/>
+      </div>
+
+      <img class="service-section-2__flower absolute" src="/img/flower-9-min.png" alt="Flower leaves"/>
+      <img class="service-section-2__leaves absolute" src="/img/leaves-2-min.png" alt="Green leaves"/>
+    </div>
+  </section>
+
+  <!--  Service section 3rd - Bridal Services -->
+  <section class="service-section-3 container" id="bridal-services">
+    <div class="service-section-3__background flex justify-content-end relative">
+      <div class="service-section-3__content relative">
+        <div class="flex items-center">
+          <img class="" src="/img/bride.svg" alt="Bride vector icon"/>
+          <h6 class="font-25 text-brown ff-cookie-regular ml-4">Services</h6>
+        </div>
+        <h2 class="font-50 text-dark-brown ff-prata-regular mt-4">Bridal Services</h2>
+        <p class="font-16 text-brown mt-4 ff-barlow-regular">We offer full bridal salon & spa services as well as a little retreat to prepare and enjoy that memorable “get ready time” with family and friends on your most beautiful and special day!</p>
+        <a class="button mt-4 border-dark-brown ff-barlow-regular" href="/"><span class="button__label bg-dark-brown text-white">All Services</span></a>
+        
+        <!-- CTA -->
+        <a href="/" class="service-section-3__cta">
+          <img class="" src="/img/arrow-down.svg" alt="Arrow down vector icon"/>
+          <span class="font-12 text-brown ff-barlow-regular ml-2">Check out more</span>
+        </a>
+  
+        <img class="service-section-3__flower absolute" src="/img/flower-2-min.png" alt="Pink flower"/>
+        <img class="service-section-3__leaves-1 absolute" src="/img/leaves-3-min.png" alt="Green leaves"/>
+      </div>
+      <img class="service-section-3__leaves-2 absolute" src="/img/leaves-4-min.png" alt="Green leaves"/>
+    </div>
+  </section>
+
+  <!--  Service section 4th - Salt Services -->
+  <section class="service-section-4 bg-beige">
+    <div class="container flex justify-content-between relative">
+      <div class="service-section-4__content relative">
+        <div class="flex items-center">
+          <img class="" src="/img/sugar.svg" alt="Sugar vector icon"/>
+          <h6 class="font-25 text-brown ff-cookie-regular ml-4">Services</h6>
+        </div>
+        <h2 class="service-section-4__title font-50 text-white ff-prata-regular mt-4">Salt</h2>
+        <p class="service-section-4__text font-16 text-white mt-4 ff-barlow-regular">Salt possesses wonderful healing and rejuvenation properties. Indulge in one of our salt treatments and experience strength and vitality from one of nature's most ancient forms of therapy.</p>
+      
+        <img class="service-section-4__flower absolute" src="/img/flower-3-min.png" alt="Flower leaves"/>
+        <img class="service-section-4__leaves absolute" src="/img/leaves-5-min.png" alt="Green leaves"/>
+      </div>
+
+      <div class="service-section-4__primary-image"></div>
+    </div>
+  </section>
+
+  <!-- Text Content -->
+  <section class="section-text-content text-center relative">
+    <div class="divider divider--1"></div>
+    <h3 class="font-30 text-brown ff-prata-regular">Sadona Salon + Spa was inspired around Ayurvedic principles.</h3>
+    <p class="font-16 text-dark-brown mt-2 ff-barlow-regular">The belief that health and wellness occur when there is true balance between the mind, body and spirit.</p>
+    <div class="divider divider--2"></div>
+
+    <img class="section-text-content__flower absolute" src="/img/flower-4-min.png" alt="Flower"/>
+    <img class="section-text-content__leaves absolute" src="/img/leaves-6-min.png" alt="Green leaves"/>
+  </section>
+  
+  <!--  Service section 5th - Cezane -->
+  <section class="service-section-5 container">
+    <div class="service-section-5__wrapper flex justify-content-between bg-brown">
+      <div class="service-section-5__content relative">
+        <div class="flex items-center">
+          <img class="" src="/img/shipping.svg" alt="Sugar vector icon"/>
+          <h6 class="font-25 text-beige ff-cookie-regular ml-4">Products</h6>
+        </div>
+        <h2 class="service-section-5__title font-50 text-white ff-prata-regular mt-4">Cezane</h2>
+        <p class="service-section-5__text font-16 text-white mt-4 ff-barlow-regular">Transform your frizzy, difficult, kinky, curly hair into soft, manageable, beautiful locks.</p>
+        
+        <!-- CTA -->
+        <a href="/" class="service-section-5__cta flex justify-content-end mt-8">
+          <span class="font-12 text-beige ff-barlow-regular mr-2">Full range of products available</span>
+          <img class="" src="/img/arrow-right.svg" alt="Arrow down vector icon"/>
+        </a>
+      </div>
+
+      <div class="service-section-5__primary-image">
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-faq bg-light-gray">
+    <div class="container relative">
+      <div class="section-faq__small-section flex items-center">
+        <img class="" src="/img/information.svg" alt="Sugar vector icon"/>
+        <h6 class="font-25 text-brown ff-cookie-regular ml-2">FAQ's</h6>
+      </div>
+
+      <div class="flex justify-content-between items-center">
+        <h2 class="font-50 text-dark-brown ff-prata-regular mt-4">How Can We Help You?</h2>
+        <a class="button mt-4 border-dark-brown ff-barlow-regular" href="/"><span class="button__label bg-dark-brown text-white">Recently Asked Questions</span></a>
+      </div>
+
+      <img class="section-faq__flower absolute" src="/img/flower-5-min.png" alt="Flower leaves"/>
+      <img class="section-faq__leaves absolute" src="/img/leaves-7-min.png" alt="Green leaves"/>
+    </div>
+  </section>
+
+  <!-- NEWS -->
+  <section class="section-news bg-beige" id="news">
+    <div class="container relative">
+      <img class="section-news__flower absolute" src="/img/flower-6-min.png" alt="Flower leaves"/>
+
+      <h2 class="font-50 text-brown ff-prata-regular text-center">News</h2>
+
+      <div class="wrapper flex mt-4">
+        <div class="section-news-card bg-white">
+          <img class="section-news-card__primary-image" src="/img/image-7-min.png" alt="">
+          <div class="section-news-card__info">
+            <div class="flex items-center">
+              <img class="" src="/img/information.svg" alt="Sugar vector icon"/>
+              <h6 class="font-25 text-brown ff-cookie-regular ml-2">News</h6>
+            </div>
+            <h3 class="section-news-card__title font-30 mt-2 text-dark-brown ff-prata-regular">A Message from Donna Brown</h3>
+            <ul class="section-news-card__list mt-2 list-style-none flex">
+              <li class="text-12 text-brown ff-barlow-regular mr-1">08.09.2022.</li>
+              <li class="text-12 text-brown ff-barlow-regular">14:30</li>
+            </ul>
+            <p class="section-news-card__text font-16 text-brown ff-barlow-regular mt-2">Sadona Salon + Spa was inspired around Ayurvedic principles—the belief that health and wellness occur when there is true balance between the mind...</p>
+
+            <!-- CTA -->
+            <a href="/" class="read-more flex items-center mt-6">
+              <span class="font-12 text-brown ff-barlow-regular mr-2">Read more</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6"><defs><style>.a{fill:#d1c1a5;}</style></defs><path class="a" d="M2.4,0V6.875H0L3.036,11,6,6.875H3.6V0Z" transform="translate(0 6) rotate(-90)"/></svg>
+            </a>
+          </div>
+        </div><!-- end .card -->
+        <div class="section-news-card bg-white">
+          <img class="section-news-card__primary-image" src="/img/image-8-min.png" alt="">
+          <div class="section-news-card__info">
+            <div class="flex items-center">
+              <img class="" src="/img/information.svg" alt="Sugar vector icon"/>
+              <h6 class="font-25 text-brown ff-cookie-regular ml-2">News</h6>
+            </div>
+            <h3 class="section-news-card__title font-30 mt-2 text-dark-brown ff-prata-regular">Sadona Salon COVID update</h3>
+            <ul class="section-news-card__list mt-2 list-style-none flex">
+              <li class="text-12 text-brown ff-barlow-regular mr-1">08.09.2022.</li>
+              <li class="text-12 text-brown ff-barlow-regular">14:30</li>
+            </ul>
+            <p class="section-news-card__text font-16 text-brown ff-barlow-regular mt-2">We have all become increasingly aware of the severity and seriousness of COVID-19. Your satisfaction and safety are of utmost concern to us...</p>
+
+            <!-- CTA -->
+            <a href="/" class="read-more flex items-center mt-6">
+              <span class="font-12 text-brown ff-barlow-regular mr-2">Read more</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6"><defs><style>.a{fill:#d1c1a5;}</style></defs><path class="a" d="M2.4,0V6.875H0L3.036,11,6,6.875H3.6V0Z" transform="translate(0 6) rotate(-90)"/></svg>
+            </a>
+          </div>
+        </div><!-- end .card -->
+        <div class="section-news-card bg-white">
+          <img class="section-news-card__primary-image" src="/img/image-9-min.png" alt="">
+          <div class="section-news-card__info">
+            <div class="flex items-center">
+              <img class="" src="/img/information.svg" alt="Sugar vector icon"/>
+              <h6 class="font-25 text-brown ff-cookie-regular ml-2">News</h6>
+            </div>
+            <h3 class="section-news-card__title font-30 mt-2 text-dark-brown ff-prata-regular">Love Yourself.</h3>
+            <ul class="section-news-card__list mt-2 list-style-none flex">
+              <li class="text-12 text-brown ff-barlow-regular mr-1">08.09.2022.</li>
+              <li class="text-12 text-brown ff-barlow-regular">14:30</li>
+            </ul>
+            <p class="section-news-card__text font-16 text-brown ff-barlow-regular mt-2">Sadona Salon + Spa was inspired around Ayurvedic principles—the belief that health and wellness occur when there is true balance between the mind...</p>
+
+            <!-- CTA -->
+            <a href="/" class="read-more flex items-center mt-6">
+              <span class="font-12 text-brown ff-barlow-regular mr-2">Read more</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6"><defs><style>.a{fill:#d1c1a5;}</style></defs><path class="a" d="M2.4,0V6.875H0L3.036,11,6,6.875H3.6V0Z" transform="translate(0 6) rotate(-90)"/></svg>
+            </a>
+          </div>
+        </div><!-- end .card -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-light-gray">
+    <div class="container relative">
+      <div class="footer__gift flex items-center justify-content-between">
+        <h4 class="font-30 text-brown ff-prata-regular pr-2">Surprice your friends & family with our gift card!</h4>
+        <a class="button border-dark-brown ff-barlow-regular" href="/"><span class="button__label bg-dark-brown text-white">Purchase Gift Cards Here</span></a>
+      </div>
+
+      <div class="footer__info">
+        <a href="/"><img class="mt-7" src="/img/footer-logo.png" alt="Footer Logo"/></a>
+        <img class="footer__flower absolute" src="/img/flower-7-min.png" alt="Flower leaves"/>
+        <img class="footer__leaves absolute" src="/img/leaves-8-min.png" alt="Green leaves"/>
+
+        <div class="columns-wrapper flex mt-8">
+          <div class="col-1">
+            <h3 class="col-1__title text-brown font-50 ff-prata-regular">We'd love to hear from you.</h3>
+          </div>
+          <div class="col-2">
+            <ul class="list-style-none">
+              <li class="font-16 text-dark-brown ff-barlow-regular flex items-start"><img src="/img/vector-phone.svg" class="col-2__vector mr-2" alt="Phone ector"><a class="text-dark-brown hover-text-brown" href="tel:+4102631515"><span class="">(410) 263-1515</span></a></li>
+              <li class="font-16 text-dark-brown ff-barlow-regular flex items-start"><img src="/img/vector-envelope.svg" class="col-2__vector mr-2" alt="Envelope vector"><a class="text-dark-brown hover-text-brown" href="mailto:info@mysadona.com"><span class="">info@mysadona.com</span></a></li>
+              <li class="font-16 text-dark-brown ff-barlow-regular flex items-start"><img src="/img/vector-pin.svg" class="col-2__vector mr-2" alt="Location vector"><span>15 West Street Annapolis, MD 21401</span></li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <div class="col-3__title flex items-center">
+              <img class="" src="/img/vector-time.svg" alt="Time vector icon"/>
+              <h6 class="font-16 text-brown ff-barlow-semibold ml-2">Hours of Operation</h6>
+            </div>
+            <ul class="col-3__list list-style-none">
+              <li class="font-16 text-dark-brown ff-barlow-regular">Monday - Tuesday: 11am - 7pm</li>
+              <li class="font-16 text-dark-brown ff-barlow-regular">Wednesday - Friday: 9am - 7pm</li>
+              <li class="font-16 text-dark-brown ff-barlow-regular">Saturday: 8am - 4pm</li>
+              <li class="font-16 text-dark-brown ff-barlow-regular">Sunday: 10am - 4pm</li>
+            </ul>
+          </div>
+          <div class="col-4">  
+            <h6 class="font-16 text-brown ff-barlow-semibold">Follow us</h6>
+            <div class="flex items-center">
+              <a class="col-4__link" href="/">
+                <svg class="facebook" xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22"><defs><style>.a{fill:#fff;}</style></defs><path class="a" d="M13.257,11.814v-4.2h3.436V5.5a5.487,5.487,0,0,1,1.5-3.894A4.817,4.817,0,0,1,21.844,0h3.413V4.2H21.844a.753.753,0,0,0-.6.363,1.46,1.46,0,0,0-.268.891V7.612h4.282v4.2H20.974V22H16.692V11.814Z" transform="translate(-13.257)"/></svg>
+              </a>
+              <a class="col-4__link" href="/">
+                <svg class="instagram" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><defs><style>.a{fill:#fff;}</style></defs><path class="a" d="M6,0C4.37,0,4.166.008,3.526.036A4.424,4.424,0,0,0,2.07.315a2.938,2.938,0,0,0-1.063.692A2.928,2.928,0,0,0,.315,2.07,4.411,4.411,0,0,0,.036,3.526C.006,4.166,0,4.37,0,6S.008,7.833.036,8.473A4.427,4.427,0,0,0,.315,9.93a2.942,2.942,0,0,0,.692,1.063,2.934,2.934,0,0,0,1.063.692,4.43,4.43,0,0,0,1.456.279c.64.03.844.036,2.474.036s1.833-.008,2.473-.036a4.44,4.44,0,0,0,1.456-.279A3.066,3.066,0,0,0,11.685,9.93a4.427,4.427,0,0,0,.279-1.456C11.994,7.833,12,7.63,12,6s-.008-1.833-.036-2.474a4.437,4.437,0,0,0-.279-1.456,2.945,2.945,0,0,0-.692-1.063A2.923,2.923,0,0,0,9.93.315,4.414,4.414,0,0,0,8.473.036C7.833.006,7.63,0,6,0ZM6,1.08c1.6,0,1.792.008,2.425.035a3.306,3.306,0,0,1,1.114.207,1.974,1.974,0,0,1,1.139,1.138,3.313,3.313,0,0,1,.207,1.113c.029.633.035.823.035,2.425s-.008,1.792-.037,2.425a3.377,3.377,0,0,1-.21,1.114,1.905,1.905,0,0,1-.45.691,1.872,1.872,0,0,1-.69.448,3.337,3.337,0,0,1-1.118.207c-.637.029-.825.035-2.429.035s-1.793-.008-2.429-.037a3.4,3.4,0,0,1-1.118-.21,1.858,1.858,0,0,1-.689-.449,1.822,1.822,0,0,1-.45-.69,3.405,3.405,0,0,1-.21-1.118c-.022-.63-.031-.825-.031-2.422s.008-1.793.031-2.43A3.4,3.4,0,0,1,1.3,2.445a1.779,1.779,0,0,1,.45-.69,1.775,1.775,0,0,1,.689-.449A3.321,3.321,0,0,1,3.548,1.1c.638-.022.825-.03,2.429-.03L6,1.08ZM6,2.919A3.081,3.081,0,1,0,9.081,6,3.081,3.081,0,0,0,6,2.919ZM6,8A2,2,0,1,1,8,6,2,2,0,0,1,6,8ZM9.923,2.8a.72.72,0,1,1-.72-.719A.721.721,0,0,1,9.923,2.8Z" transform="translate(0 0)"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div><!-- end Footer Info -->
+
+      <div class="footer__navigation-container flex">
+        <div class="left-menu">
+          <h6 class="font-16 text-beige ff-prata-regular">Menu</h6>
+          <nav class="footer__navigation mt-4">
+            <a class="nav-item font-16 text-dark-brown ff-barlow-regular" href="/">Home</a>
+            <a class="nav-item font-16 text-dark-brown ff-barlow-regular" href="">Our Story</a>
+            <a class="nav-item font-16 text-dark-brown ff-barlow-regular" href="">Services</a>
+            <a class="nav-item font-16 text-dark-brown ff-barlow-regular" href="">Products</a>
+            <a class="nav-item font-16 text-dark-brown ff-barlow-regular" href="#news">News</a>
+            <a class="nav-item font-16 text-dark-brown ff-barlow-regular" href="">Contacts</a>
+          </nav>
+        </div>
+
+        <div class="right-menu relative">
+          <h6 class="font-16 text-beige ff-prata-regular">Services</h6>
+          <nav class="footer__navigation mt-4">
+            <a class="nav-item font-16 text-dark-brown ff-barlow-regular" href="#salon-services">Salon Services</a>
+            <a class="nav-item font-16 text-dark-brown ff-barlow-regular" href="#spa-services">Spa Services</a>
+            <a class="nav-item font-16 text-dark-brown ff-barlow-regular" href="#bridal-services">Bridal Services</a>
+          </nav>
+
+          <img class="navigation-leaves absolute" src="/img/leaves-9-min.png" alt="Green leaves"/>
+        </div>
+      </div>
+    </div><!-- End Container-->
+    <div class="subfooter bg-brown">
+      <p class="font-12 ff-playfair-display-regular text-white text-center">Copyright 2016 Herrmann Advertising &nbsp; | &nbsp; All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="/dist/script.js"></script>
+</body>
+</html>
